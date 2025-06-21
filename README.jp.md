@@ -1,7 +1,7 @@
 # TrussForce Webアプリ Web連携体験談🍵   
 （クラウドにデプロイしていないから正式にはローカルで動かせて満足している状態）  
 <!-- 言語切替 -->
-[🇯🇵 日本語](README.md) | [🇺🇸 English](README.en.md)
+[🇯🇵 日本語](README.jp.md) | [🇺🇸 English](README.md)
 
 ---
 
