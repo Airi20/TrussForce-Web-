@@ -9,6 +9,9 @@ At first, I was satisfied with a .jar running locally—but my curiosity to touc
 I created a Web app to automatically calculate member forces in truss structures.
 It worked perfectly in my local environment, but I wanted to let others try it too—so I needed to make it public on the web.
 
+![画面1](スクリーンショット%202025-06-21%20213143.png)
+![画面2](スクリーンショット%202025-06-21%20213159.png)
+
 
 
 ## 🔥 Features
