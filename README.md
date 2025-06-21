@@ -66,7 +66,7 @@ JSON形式でフロントへ返す
     ↓
 Reactで結果を描画  
 
-
+```
 
 ## 🧱 コンポーネント詳細  
   
@@ -79,6 +79,7 @@ Reactで結果を描画
 
 2. Spring Boot Controller（TrussForceController.java）  
 java
+
 
 ```  
 @PostMapping("/api/solve")
@@ -97,6 +98,7 @@ APIの受け口
 
 3. Service層（TrussForceService.java）
 java
+
 ```
 public ResultDto solve(InputDto inputDto) {
     // DTOからモデル生成（必要なら）
