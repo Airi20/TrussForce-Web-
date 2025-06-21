@@ -1,5 +1,6 @@
 ## TrussForce Web App – Dev Story 🍵
-(Currently only working locally; not yet deployed to the cloud)
+(Currently only working locally; not yet deployed to the cloud)  
+
 [🇯🇵 日本語](README.jp.md) | [🇺🇸 English](README.md)  
 
 This is a simple and intuitive Web app that automatically calculates member forces in a truss structure (or will be, eventually).
@@ -16,31 +17,31 @@ It worked perfectly in my local environment, but I wanted to let others try it t
 
 
 ## 🔥 Features
-Single-page app built with React
+- Single-page app built with React
 
-Easily add/remove nodes and members
+- Easily add/remove nodes and members
 
-Intuitive support and load settings
+- Intuitive support and load settings
 
-Real-time calculation results
+- Real-time calculation results
 
-Sorted and labeled member forces for easy understanding
+- Sorted and labeled member forces for easy understanding
 
-Connected to a Java back-end API for structural calculations
+- Connected to a Java back-end API for structural calculations
 
 ## 🚀 How to Use
-Input nodes and members
+- Input nodes and members
 
-Set supports and loads
+- Set supports and loads
 
-Press “Submit” to calculate and view results
+- Press “Submit” to calculate and view results
 
 ## 🛠️ Tech Stack
-Front-end: React
+- Front-end: React
 
-Back-end: Java (Spring Boot + custom solver)
+- Back-end: Java (Spring Boot + custom solver)
 
-API: JSON via fetch
+- API: JSON via fetch
 
 ## 🌐 TrussForce System Flow (Web version)
 A breakdown of how the app flows from front-end to back-end, through calculations, and back to the UI.
@@ -125,40 +126,40 @@ Used to structure and send calculation results back to the front-end
 ```
 
 ## 🧪 Extra Tips
-Controller = API gatekeeper
+- Controller = API gatekeeper
 
-Service = traffic controller
+- Service = traffic controller
 
-Solver = brain
+- Solver = brain
 
-DTO = data box
+- DTO = data box
 
-React = UI & logic
+- React = UI & logic
 
-fetch = bridge between worlds
+- fetch = bridge between worlds
 
 ## 💡 Recommended For:
-Students studying structural mechanics
+- Students studying structural mechanics
 
-High schoolers curious about force analysis
+- High schoolers curious about force analysis
 
-Engineers needing a quick truss check
+- Engineers needing a quick truss check
 
-Anyone tired of hand-calculating axial forces
+- Anyone tired of hand-calculating axial forces
 
-Classmates suffering through beam/truss assignments
+- Classmates suffering through beam/truss assignments
 
 ## 😵‍💫 What I Struggled With
-Only working locally
+- Only working locally
 Others couldn’t access the API running on localhost.
 
-Cloud deployment
+- Cloud deployment
 Cloud services like AWS/Azure were intimidating or required a credit card (which I didn’t have 😭).
 
 ## 📘 What I Learned
-Uploading to GitHub alone doesn’t make an app “public”
+- Uploading to GitHub alone doesn’t make an app “public”
 
-Cloud deployment is key for sharing your app
+- Cloud deployment is key for sharing your app
 
 If your goal is web access, start thinking cloud-first
 (You may not even need a local test if you're cloud-bound from the start)
