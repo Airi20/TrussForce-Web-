@@ -75,7 +75,7 @@ Reactで結果を描画
 
 ## 🧱 コンポーネント詳細  
   
-1. React UI（App.jsx or App.js）  
+**1. React UI（App.jsx or App.js）**  
 ユーザーがノード・部材・荷重・支点条件を入力  
 
 送信ボタンで 
@@ -86,7 +86,7 @@ fetch("/api/solve", { method: "POST", body: JSON })
 
 結果は setResult() で保存 → 表示  
 
-2. Spring Boot Controller（TrussForceController.java）  
+**2. Spring Boot Controller（TrussForceController.java）**  
 
 
 ```  
@@ -103,7 +103,7 @@ APIの受け口
 計算処理は Service に丸投げ  
 
 
-3. Service層（TrussForceService.java）
+**3. Service層（TrussForceService.java）**
 
 
 ```
@@ -116,7 +116,7 @@ public ResultDto solve(InputDto inputDto) {
 
 Solver（ビジネスロジック）に処理を依頼
 
-4. Solver（TrussForceSolver.java）
+**4. Solver（TrussForceSolver.java）**
 
 
 ```
@@ -132,7 +132,7 @@ Javaで実装されたトラス構造の力学計算
 静定条件の確認、反力解法、部材軸力計算を実行
 
 
-5. ResultDto（ResultDto.java）
+**5. ResultDto（ResultDto.java）**
 計算結果をJSON形式でまとめるためのオブジェクト
 
 含まれる項目:
