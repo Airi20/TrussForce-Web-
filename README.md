@@ -3,13 +3,13 @@
 
 [🇯🇵 日本語](README.jp.md) | [🇺🇸 English](README.md)  
 
-This is a simple and intuitive Web app that automatically calculates member forces in a truss structure (or will be, eventually).
+- This is a simple and intuitive Web app that automatically calculates member forces in a truss structure (or will be, eventually).
 Once you enter the nodes and members, the app computes the reaction forces and axial forces (tension/compression) for each member.
 At first, I was satisfied with a .jar running locally—but my curiosity to touch both front-end and back-end dragged me into this beautiful chaos.
 
 ## 🧭 Background
-I created a Web app to automatically calculate member forces in truss structures.
-It worked perfectly in my local environment, but I wanted to let others try it too—so I needed to make it public on the web.
+- I created a Web app to automatically calculate member forces in truss structures.
+- It worked perfectly in my local environment, but I wanted to let others try it too—so I needed to make it public on the web.
 
 ![画面1](スクリーンショット%202025-06-21%20213143.png)
 ![画面2](スクリーンショット%202025-06-21%20213159.png)
@@ -44,7 +44,7 @@ It worked perfectly in my local environment, but I wanted to let others try it t
 - API: JSON via fetch
 
 ## 🌐 TrussForce System Flow (Web version)
-A breakdown of how the app flows from front-end to back-end, through calculations, and back to the UI.
+- A breakdown of how the app flows from front-end to back-end, through calculations, and back to the UI.
 
 ## 🔁 Process Flow
 ```
@@ -70,7 +70,7 @@ Result rendered on UI
 
 ## 🧱 Component Details
 ## 1. React UI (App.js)
-Users input node coordinates, supports, loads, and member connections
+- Users input node coordinates, supports, loads, and member connections
 
 Submits via:
 
@@ -123,7 +123,7 @@ Map<Integer, Double> reactionsX
 Map<Integer, Double> reactionsY
 Map<String, Double> memberForces
 ```
-Used to structure and send calculation results back to the front-end
+- Used to structure and send calculation results back to the front-end
 
 ## 🧪 Extra Tips
 - Controller = API gatekeeper
@@ -161,15 +161,15 @@ Cloud services like AWS/Azure were intimidating or required a credit card (which
 
 - Cloud deployment is key for sharing your app
 
-If your goal is web access, start thinking cloud-first
+- If your goal is web access, start thinking cloud-first
 (You may not even need a local test if you're cloud-bound from the start)
 
 ## ✅ Summary
-Even if local-only works for you, deploying to the cloud is a must if you want to share your work.
-Future developers: don’t wait—get your stuff online sooner!
+- Even if local-only works for you, deploying to the cloud is a must if you want to share your work.
+- Future developers: don’t wait—get your stuff online sooner!
 
 ## 💬 Questions Welcome
-If you’re a student who desperately needs a truss analysis done, just post your node coordinates, member list, and supports here—I might get back to you with results:
+- If you’re a student who desperately needs a truss analysis done, just post your node coordinates, member list, and supports here—I might get back to you with results:
 
 👉https://github.com/Airi20/TrussForce-Web-/issues/new
 
