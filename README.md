@@ -79,8 +79,8 @@ fetch("/api/solve", {
   method: "POST",
   body: JSON.stringify(data),
 })
-Response is parsed with setResult() and rendered
 ```
+- Response is parsed with setResult() and rendered
 
 ## 2. Spring Boot Controller (TrussForceController.java)
 ```
@@ -89,11 +89,11 @@ public ResultDto solve(@RequestBody InputDto input) {
     return trussForceService.solve(input);
 }
 ```
-Handles POST requests from the front-end
+- Handles POST requests from the front-end
 
-Parses JSON into InputDto
+- Parses JSON into InputDto
 
-Delegates logic to the Service layer
+- Delegates logic to the Service layer
 
 ## 3. Service Layer (TrussForceService.java)
 ```
@@ -101,9 +101,9 @@ public ResultDto solve(InputDto inputDto) {
     return solver.solve(inputDto);
 }
 ```
-(Optional) converts DTOs into internal models
+- (Optional) converts DTOs into internal models
 
-Calls the solver with input
+- Calls the solver with input
 
 ## 4. Solver (TrussForceSolver.java)
 ```
@@ -113,17 +113,17 @@ public ResultDto solve(InputDto dto) {
     return new ResultDto(...);
 }
 ```
-Core Java logic
+- Core Java logic
 
-Checks determinacy, solves linear system, and computes axial forces
+- Checks determinacy, solves linear system, and computes axial forces
 
 ## 5. Result DTO (ResultDto.java)
 ```
 Map<Integer, Double> reactionsX
 Map<Integer, Double> reactionsY
 Map<String, Double> memberForces
-Used to structure and send calculation results back to the front-end
 ```
+Used to structure and send calculation results back to the front-end
 
 ## 🧪 Extra Tips
 - Controller = API gatekeeper
