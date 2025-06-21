@@ -1,6 +1,6 @@
 ## TrussForce Web App – Dev Story 🍵
 (Currently only working locally; not yet deployed to the cloud)
-
+[🇯🇵 日本語](README.md) | [🇺🇸 English](README.md)
 This is a simple and intuitive Web app that automatically calculates member forces in a truss structure (or will be, eventually).
 Once you enter the nodes and members, the app computes the reaction forces and axial forces (tension/compression) for each member.
 At first, I was satisfied with a .jar running locally—but my curiosity to touch both front-end and back-end dragged me into this beautiful chaos.
