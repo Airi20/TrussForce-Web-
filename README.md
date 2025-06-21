@@ -65,7 +65,6 @@ ResultDto に格納
 JSON形式でフロントへ返す
     ↓
 Reactで結果を描画  
-
 ```
 
 ## 🧱 コンポーネント詳細  
@@ -73,12 +72,15 @@ Reactで結果を描画
 1. React UI（App.jsx or App.js）  
 ユーザーがノード・部材・荷重・支点条件を入力  
 
-送信ボタンで fetch("/api/solve", { method: "POST", body: JSON })  
+送信ボタンで 
+
+```
+fetch("/api/solve", { method: "POST", body: JSON })
+```
 
 結果は setResult() で保存 → 表示  
 
 2. Spring Boot Controller（TrussForceController.java）  
-java
 
 
 ```  
@@ -86,7 +88,6 @@ java
 public ResultDto solve(@RequestBody InputDto input) {
     return trussForceService.solve(input);
 }
-
 ```
 
 APIの受け口  
@@ -97,21 +98,20 @@ APIの受け口
 
 
 3. Service層（TrussForceService.java）
-java
+
 
 ```
 public ResultDto solve(InputDto inputDto) {
     // DTOからモデル生成（必要なら）
     return solver.solve(inputDto);
 }
-
 ```
 必要があれば DTO → Entity に変換
 
 Solver（ビジネスロジック）に処理を依頼
 
 4. Solver（TrussForceSolver.java）
-java
+
 
 ```
 public ResultDto solve(InputDto dto) {
@@ -119,7 +119,6 @@ public ResultDto solve(InputDto dto) {
     // 部材力計算
     // 結果まとめて return new ResultDto(...)
 }
-
 ```
 
 Javaで実装されたトラス構造の力学計算
@@ -132,24 +131,22 @@ Javaで実装されたトラス構造の力学計算
 
 含まれる項目:
 
+```
 Map<Integer, Double> reactionsX
 
 Map<Integer, Double> reactionsY
 
-Map<String, Double> memberForces  
+Map<String, Double> memberForces
+```
+
 
 ## 🧪 補足Tips
-Controller は「APIの玄関」。
-
-Service は「交通整理係」。
-
-Solver が「頭脳」。
-
-DTO は「データの箱」。
-
-React は「見た目と操作」。
-
-fetch は「橋渡し役」。  
+- Controller は「APIの玄関」。
+- Service は「交通整理係」。
+- Solver が「頭脳」。
+- DTO は「データの箱」。
+- React は「見た目と操作」。
+- fetch は「橋渡し役」。  
 
 
 ## 💡 こんな人におすすめ
