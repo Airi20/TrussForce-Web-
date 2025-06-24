@@ -1,5 +1,6 @@
 ## TrussForce Web App – Dev Story 🍵
-(Currently only working locally; not yet deployed to the cloud)  
+
+https://trussfront.onrender.com  
 
 [🇯🇵 日本語](README.jp.md) | [🇺🇸 English](README.md)  
 
@@ -148,13 +149,6 @@ Map<String, Double> memberForces
 - Anyone tired of hand-calculating axial forces
 
 - Classmates suffering through beam/truss assignments
-
-## 😵‍💫 What I Struggled With
-- Only working locally
-Others couldn’t access the API running on localhost.
-
-- Cloud deployment
-Cloud services like AWS/Azure were intimidating or required a credit card (which I didn’t have 😭).
 
 ## 📘 What I Learned
 - Uploading to GitHub alone doesn’t make an app “public”
