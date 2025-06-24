@@ -1,6 +1,7 @@
 # TrussForce Webアプリ Web連携体験談🍵   
 
-https://trussfront.onrender.com  
+ここから数値を入力してください！
+👉https://trussfront.onrender.com  
 
 <!-- 言語切替 -->
 [🇯🇵 日本語](README.jp.md) | [🇺🇸 English](README.md)
@@ -182,6 +183,9 @@ Map<String, Double> memberForces
 
 ## 質問受け付け中
 
-2Dトラスの部材力・反力をどうしてもすぐ計算したい大学生はここに接点座標、部材番号、支点情報（ピン、ローラー固定）を書いてください。気が向いたら計算結果送ります。  
-https://github.com/Airi20/TrussForce-Web-/issues/new
+2Dトラスの部材力・反力を求めたい方は  
+👉https://trussfront.onrender.com  
+
+質問、バグを見つけた方は  
+👉https://github.com/Airi20/TrussForce-Web-/issues/new
 
