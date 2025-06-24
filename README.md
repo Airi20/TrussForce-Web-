@@ -1,6 +1,7 @@
 ## TrussForce Web App – Dev Story 🍵
 
-https://trussfront.onrender.com  
+Please enter the values here.  
+👉https://trussfront.onrender.com  
 
 [🇯🇵 日本語](README.jp.md) | [🇺🇸 English](README.md)  
 
@@ -163,7 +164,10 @@ Map<String, Double> memberForces
 - Future developers: don’t wait—get your stuff online sooner!
 
 ## 💬 Questions Welcome
-- If you’re a student who desperately needs a truss analysis done, just post your node coordinates, member list, and supports here—I might get back to you with results:
 
+ Please enter the values here.  
+👉https://trussfront.onrender.com  
+
+ If you have questions or find bugs, please contact us here.  
 👉https://github.com/Airi20/TrussForce-Web-/issues/new
 
