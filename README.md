@@ -172,7 +172,8 @@ Map<String, Double> memberForces
 👉https://github.com/Airi20/TrussForce-Web-/issues/new
 
 
-© あいり  
-このコードは個人利用や学習目的に限り利用可能です。  
-商用利用（利益を目的とした利用）は禁止します。  
+© Airi  
+This code is for personal and educational use only.  
+Commercial use is strictly prohibited.
+  
 
