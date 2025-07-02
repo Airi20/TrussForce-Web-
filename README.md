@@ -156,9 +156,6 @@ Map<String, Double> memberForces
 
 - Cloud deployment is key for sharing your app
 
-- If your goal is web access, start thinking cloud-first
-(You may not even need a local test if you're cloud-bound from the start)
-
 ## ✅ Summary
 - Even if local-only works for you, deploying to the cloud is a must if you want to share your work.
 - Future developers: don’t wait—get your stuff online sooner!
