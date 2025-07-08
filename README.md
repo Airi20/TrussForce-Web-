@@ -169,8 +169,7 @@ Map<String, Double> memberForces
 👉https://github.com/Airi20/TrussForce-Web-/issues/new
 
 
-© Airi  
+  
+© <span style="color:gray;">@Airi</span>  
 This code is for personal and educational use only.  
 Commercial use is strictly prohibited.
-  
-
